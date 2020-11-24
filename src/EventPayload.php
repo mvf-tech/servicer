@@ -43,6 +43,9 @@ trait EventPayload
             if ($value instanceof EventPayloadInterface) {
                 return $value->toPayload();
             }
+            if (is_array($value)) {
+                return map(array_values($value), $this->transformToPayload());
+            }
             if (is_object($value) === true) {
                 $message = 'Invalid object attribute found, toPayload() can only transform objects that implement ' .
                     EventPayloadInterface::class .
