@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2fb476fda16b37f4f9a237dc5a37bb89",
+    "content-hash": "635bc781a812b8363c25d6a09dc94584",
     "packages": [
         {
             "name": "aws/aws-sdk-php",
@@ -182,63 +182,6 @@
                 "tracing"
             ],
             "time": "2019-07-02T16:35:22+00:00"
-        },
-        {
-            "name": "graze/dog-statsd",
-            "version": "0.4.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/graze/dog-statsd.git",
-                "reference": "94fe0c0d649384f13527eff556136726f6c9803e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/graze/dog-statsd/zipball/94fe0c0d649384f13527eff556136726f6c9803e",
-                "reference": "94fe0c0d649384f13527eff556136726f6c9803e",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^5.5|^7.0"
-            },
-            "require-dev": {
-                "graze/standards": "^2",
-                "johnkary/phpunit-speedtrap": "^1|^2|^3",
-                "phpunit/phpunit": "^5.7.21|^6|^7",
-                "squizlabs/php_codesniffer": "^3"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Graze\\DogStatsD\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Harry Bragg",
-                    "email": "harry.bragg@graze.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Graze Developers",
-                    "email": "developers@graze.com",
-                    "homepage": "http://www.graze.com",
-                    "role": "Development Team"
-                }
-            ],
-            "description": "DataDog StatsD Client",
-            "homepage": "https://github.com/graze/dog-statsd",
-            "keywords": [
-                "DataDog",
-                "dog-statsd",
-                "dogstatsd",
-                "graze",
-                "statsd"
-            ],
-            "time": "2019-07-29T16:45:12+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -694,47 +637,6 @@
                 "jsonpath"
             ],
             "time": "2016-12-03T22:08:25+00:00"
-        },
-        {
-            "name": "mvf-tech/system_logger",
-            "version": "3.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mvf-tech/system-logger.git",
-                "reference": "070d1ced93ced68a9b28869ea747dd223503575d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mvf-tech/system-logger/zipball/070d1ced93ced68a9b28869ea747dd223503575d",
-                "reference": "070d1ced93ced68a9b28869ea747dd223503575d",
-                "shasum": ""
-            },
-            "require": {
-                "graze/dog-statsd": "0.*",
-                "lstrojny/functional-php": "^1.8",
-                "php": ">=7.1.0"
-            },
-            "require-dev": {
-                "phpspec/phpspec": "^5.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "MVF\\SystemLogger\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Dovydas Rupsys",
-                    "email": "dovydas.rupsys@mvfglobal.com"
-                }
-            ],
-            "description": "A package used to perform DataDog and system logs",
-            "time": "2019-10-14T09:44:33+00:00"
         },
         {
             "name": "opentracing/opentracing",
@@ -1789,7 +1691,7 @@
                 },
                 {
                     "name": "Gert de Pagter",
-                    "email": "backendtea@gmail.com"
+                    "email": "BackEndTea@gmail.com"
                 }
             ],
             "description": "Symfony polyfill for ctype functions",
@@ -2562,12 +2464,12 @@
             "version": "1.3.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/facebook/php-webdriver.git",
+                "url": "https://github.com/php-webdriver/php-webdriver-archive.git",
                 "reference": "77300c4ab2025d4316635f592ec849ca7323bd8c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/php-webdriver/zipball/77300c4ab2025d4316635f592ec849ca7323bd8c",
+                "url": "https://api.github.com/repos/php-webdriver/php-webdriver-archive/zipball/77300c4ab2025d4316635f592ec849ca7323bd8c",
                 "reference": "77300c4ab2025d4316635f592ec849ca7323bd8c",
                 "shasum": ""
             },
@@ -2604,6 +2506,7 @@
                 "selenium",
                 "webdriver"
             ],
+            "abandoned": "php-webdriver/webdriver",
             "time": "2017-01-13T15:48:08+00:00"
         },
         {
@@ -2725,6 +2628,63 @@
             "time": "2018-12-12T18:50:29+00:00"
         },
         {
+            "name": "graze/dog-statsd",
+            "version": "0.4.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/graze/dog-statsd.git",
+                "reference": "94fe0c0d649384f13527eff556136726f6c9803e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/graze/dog-statsd/zipball/94fe0c0d649384f13527eff556136726f6c9803e",
+                "reference": "94fe0c0d649384f13527eff556136726f6c9803e",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.5|^7.0"
+            },
+            "require-dev": {
+                "graze/standards": "^2",
+                "johnkary/phpunit-speedtrap": "^1|^2|^3",
+                "phpunit/phpunit": "^5.7.21|^6|^7",
+                "squizlabs/php_codesniffer": "^3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Graze\\DogStatsD\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Harry Bragg",
+                    "email": "harry.bragg@graze.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Graze Developers",
+                    "email": "developers@graze.com",
+                    "homepage": "http://www.graze.com",
+                    "role": "Development Team"
+                }
+            ],
+            "description": "DataDog StatsD Client",
+            "homepage": "https://github.com/graze/dog-statsd",
+            "keywords": [
+                "DataDog",
+                "dog-statsd",
+                "dogstatsd",
+                "graze",
+                "statsd"
+            ],
+            "time": "2019-07-29T16:45:12+00:00"
+        },
+        {
             "name": "jakubledl/dissect",
             "version": "v1.0.1",
             "source": {
@@ -2778,6 +2738,47 @@
                 "parsing"
             ],
             "time": "2013-01-29T21:29:14+00:00"
+        },
+        {
+            "name": "mvf-tech/system_logger",
+            "version": "3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mvf-tech/system-logger.git",
+                "reference": "070d1ced93ced68a9b28869ea747dd223503575d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mvf-tech/system-logger/zipball/070d1ced93ced68a9b28869ea747dd223503575d",
+                "reference": "070d1ced93ced68a9b28869ea747dd223503575d",
+                "shasum": ""
+            },
+            "require": {
+                "graze/dog-statsd": "0.*",
+                "lstrojny/functional-php": "^1.8",
+                "php": ">=7.1.0"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "^5.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MVF\\SystemLogger\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dovydas Rupsys",
+                    "email": "dovydas.rupsys@mvfglobal.com"
+                }
+            ],
+            "description": "A package used to perform DataDog and system logs",
+            "time": "2019-10-14T09:44:33+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -3445,6 +3446,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2018-10-30T05:52:18+00:00"
         },
         {
@@ -4538,12 +4540,12 @@
             "version": "1.4.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "83e253c8e0be5b0257b881e1827274667c5c17a9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/83e253c8e0be5b0257b881e1827274667c5c17a9",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/83e253c8e0be5b0257b881e1827274667c5c17a9",
                 "reference": "83e253c8e0be5b0257b881e1827274667c5c17a9",
                 "shasum": ""
             },
@@ -4593,7 +4595,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.1.0"
+        "php": "^7.4.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }

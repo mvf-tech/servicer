@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "php": "^7.1.0",
+        "php": "^7.4.0",
         "symfony/console": "^4.2",
         "aws/aws-sdk-php": "^3.82",
         "lstrojny/functional-php": "^1.9",
